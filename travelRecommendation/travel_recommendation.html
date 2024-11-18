@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="travel_recommendation.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="hero">
+            <h1>Explore the World with TravelBloom</h1>
+            <p>Your next adventure awaits!</p>
+            <input type="text" id="search-bar" placeholder="Search for destinations..." onkeyup="searchDestinations()">
+        </section>
+
+        <!-- Recommendations -->
+        <section class="recommendations" id="recommendations">
+            <h2>Recommended Destinations</h2>
+            
+            <!-- Categories (initially empty, will be populated by JavaScript) -->
+            <div class="category" id="beaches">
+                <h3>Beaches</h3>
+                <div class="images" id="beaches-list"></div>
+            </div>
+
+            <div class="category" id="temples">
+                <h3>Temples</h3>
+                <div class="images" id="temples-list"></div>
+            </div>
+
+            <div class="category" id="countries">
+                <h3>Countries</h3>
+                <div class="images" id="countries-list"></div>
+            </div>
+        </section>
+
+        <!-- Book Now Button -->
+        <button id="book-now">Book Now</button>
+    </main>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>

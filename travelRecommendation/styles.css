@@ -1,0 +1,85 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/beach1.jpg') no-repeat center center/cover;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+#search-bar {
+    padding: 10px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+/* Recommendations Section */
+.recommendations {
+    margin-top: 40px;
+}
+
+.category {
+    margin-bottom: 40px;
+}
+
+.category h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.images img {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Book Now Button */
+#book-now {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#book-now:hover {
+    background-color: #45a049;
+}
